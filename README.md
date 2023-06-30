@@ -20,52 +20,57 @@ The following imperative tasks must be completed in order to address this issue:
 - I also changed some of the datatypes for all the non-quanlative numerical columns to text data types.
 - To track Churn tenure, I introduced a conditional column.
   
- applied_step      
+    
 ![](applied_step.jpg)   
-conditional_column
- ![](Conditional_column.jpg)
+ *applied_step*   
+ 
+![](Conditional_column.jpg)
+*conditional_column*
 
 ## 4. **Exploratory Analysis**
 In total, there are 7,043 customers.
 
-*How much revenue was lost to churned customers?*
+**How much revenue was lost to churned customers?**
 
 Maven lost 1869 clients, who were responsible for 17% of its overall income. It's a significant number.
 
-DAX to count the total churn    
+ 
 ![](DAX_count_churned.jpg)      
-
-DAX to calculate the % churn on revenue
+*DAX to count the total churn* 
 
 ![](Churn_on_revenue.jpg)
 
-Outcome
+*DAX to calculate the % churn on revenue*
 
 ![](churn.jpg)  
+*Outcome*
 
-How Long does customers stay before churning?
+**How Long does customers stay before churning?**
+
 I used the Conditional column function in Power query to determine how long consumers normally stay at Maven before departing. 
 I discovered that 42% of consumers who left Maven within 6 months or less.
 
-conditional_column
 ![](Conditional_column.jpg)
-
-Churn Tenurn
+*conditional_column*
 
 ![](Churn_tenure.jpg)
 
-*What cities have the greatest rates of Churn?*
-**San Diego** had the highest churn rate at 185, with 78 customers from **Los Angeles** also churned this two cities should be a concern 
-to Maven telecom because this representate half of there customers on those cities.
+*Churn Tenurn*
+
+**What cities have the greatest rates of Churn?**
+
+Maven Telecom should be concerned because these two cities account for half of their client base in each, with **San Diego** having the highest churn rate at 185 and **Los Angeles** coming in at 78.
+
 ![](Cities_churn.jpg)
 
-*What are the reasons for churn?*
-The major reason for churn is customers' dissatisfaction with maven services offering, competitors offering better services, and Attitude support staff.
-Out of the total churned customers(1,869).
-- Competitors took 841(45%) of Maven customers by offering better services like premium tech support, Fiber Optics etc.
-- 321(17%) churned because the where dissatisfaction with maven services offering.
-- Attitude support staff churned 314(16%) customers.
-- While pricing churned 211(11%) customers. These numbers are enormous, and as a result, the business must take decisive steps in order
+**What are the reasons for churn?**
+
+Customers' discontent with Maven's service offerings, Competitors superior service offerings, and Attitude support Staffs are the main causes of turnover.
+Out of the overall 1,869 churned customers.
+- Competitors stole 841 (45%) of Maven's customers by providing superior services including fiber optics and Premium Tech Support.
+- Because of customers dissatisfaction with the services provided by Maven, 321 (17%) customers churned.
+- 314 (16%) customers left due to the attitude of the support staff.
+- Although price churned away 211 (11%) consumers. These numbers are enormous, and as a result, the business must take decisive steps in order
   to retain a sizable consumer base.
 
 ![](Reason_churn.jpg)
@@ -83,23 +88,14 @@ tech support were more likely to leave.
 
 🌟 After-Sales Service: Schedule routine customer follow-ups to make sure they are still happy with your service. These check-ins might come in the form of questionnaires, calls, or emails.
 
-## 6. **FINAL POWER BI DASHBOARD**
+## 6. **Final Power BI Dashboard**
 
+![](Final_Dashboard.jpg)
 
 ## 7. **Bonus Dax**
+This DAX was written to get the percentage of churned customers
 
 ![](Bonus_DAX.jpg)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
