@@ -30,6 +30,6 @@ Maven lost 1869 clients, who were responsible for 17% of its overall income. It'
 
 | Dax to count the total churn     | Dax to calculate the % churn on revenue |
 | -------- | -------- |
-| ![](applied_step.jpg)  | ![](Conditional_column.jpg) |
+| ![](DAX_count_churned.jpg)       | ![](%_churn_on_revenue.jpg) |
 
-
+  ![](churn.jpg)  
