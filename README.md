@@ -8,6 +8,16 @@ In this project, I will explore the multifaceted nature of customer churn and it
 ## 2. **Problem Statement: Churn Analysis**
 The problem at hand is to analyze customer churn for a company and develop a predictive model that can identify customers who are most likely to churn. The goal of this analysis is to understand the factors that contribute to customer churn and develop a model that can accurately predict churn behavior. By identifying customers who are at a high risk of churning, the company can proactively take actions to retain them, such as offering personalized incentives, improving customer service, or enhancing the value proposition of their products or services.
 
-To address this problem, the following key tasks need to be accomplished:
-- Data Collection and Preparation
-- 
+The following imperative tasks must be completed in order to address this issue:
+- Data Preparation and Cleaning
+- Exploratory Data Analysis
+- Third, Data Insights
+- Techniques for Retaining Customers
+- Data Visualization
+  
+**Data Cleaning and Preparation** 
+- I replaced all null values with "0" or "NA" depending on the column.
+- I also changed some of the datatypes for all the non-quanlative numerical columns to text data types.
+- To track Churn tenure, I introduced a conditional column.
+|Applied_step | Conditional_column
+|![](
