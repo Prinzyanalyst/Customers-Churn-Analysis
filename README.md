@@ -14,21 +14,22 @@ The following imperative tasks must be completed in order to address this issue:
 - Recommendation for Retaining Customers
 - Data Visualization
   
-**Data Cleaning and Preparation** 
+## 3.**Data Cleaning and Preparation** 
 
 - I replaced all null values with "0" or "NA" depending on the column.
 - I also changed some of the datatypes for all the non-quanlative numerical columns to text data types.
 - To track Churn tenure, I introduced a conditional column.
-- 
+  
  applied_step      
 ![](applied_step.jpg)   
 conditional_column
  ![](Conditional_column.jpg)
 
-**Exploratory Analysis**
+## 4. **Exploratory Analysis**
 In total, there are 7,043 customers.
 
-How much revenue was lost to churned customers?
+*How much revenue was lost to churned customers?*
+
 Maven lost 1869 clients, who were responsible for 17% of its overall income. It's a significant number.
 
 DAX to count the total churn    
@@ -47,13 +48,61 @@ I used the Conditional column function in Power query to determine how long cons
 I discovered that 42% of consumers who left Maven within 6 months or less.
 
 conditional_column
- ![](Conditional_column.jpg)
+![](Conditional_column.jpg)
 
 Churn Tenurn
 
-What cities have the greatest rates of Churn?
+![](Churn_tenure.jpg)
+
+*What cities have the greatest rates of Churn?*
 **San Diego** had the highest churn rate at 185, with 78 customers from **Los Angeles** also churned this two cities should be a concern 
-to Maven telecom because this representate half of there customers on those cities
+to Maven telecom because this representate half of there customers on those cities.
+![](Cities_churn.jpg)
+
+*What are the reasons for churn?*
+The major reason for churn is customers' dissatisfaction with maven services offering, competitors offering better services, and Attitude support staff.
+Out of the total churned customers(1,869).
+- Competitors took 841(45%) of Maven customers by offering better services like premium tech support, Fiber Optics etc.
+- 321(17%) churned because the where dissatisfaction with maven services offering.
+- Attitude support staff churned 314(16%) customers.
+- While pricing churned 211(11%) customers. These numbers are enormous, and as a result, the business must take decisive steps in order
+  to retain a sizable consumer base.
+
+![](Reason_churn.jpg)
+
+## 5. **Recommendation on Customer Retention**
+
+🌟 Enhance customer retention strategies: Develop targeted retention programs that focus on reducing churn rate. Consider implementing personalized offers, loyalty rewards, or proactive customer support to improve customer satisfaction and loyalty.
+
+🌟 Improve customer engagement: Enhance communication strategies across channels such as email, phone calls, and online interactions to deliver personalized and relevant services to customers.
+
+🌟 Invest in enhancing your fiber optic service by giving customers access to higher speeds, more reliable connections, and better customer service.
+
+🌟 Premium Tech Support: Maven should think about providing this service to all customers because those who did not have access to premium 
+tech support were more likely to leave.
+
+🌟 After-Sales Service: Schedule routine customer follow-ups to make sure they are still happy with your service. These check-ins might come in the form of questionnaires, calls, or emails.
+
+## 6. **FINAL POWER BI DASHBOARD**
+
+
+## 7. **Bonus Dax**
+
+![](Bonus_DAX.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
