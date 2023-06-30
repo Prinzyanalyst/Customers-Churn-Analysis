@@ -1,1 +1,5 @@
 # powerBI_churn_analysis.github.io
+
+
+# INTRODUCTION
+Customer churn is not merely a statistic or a metric; it represents a missed opportunity and a potential warning sign for any business. When customers decide to discontinue their relationship with a company, it not only affects revenue and profitability but also has broader implications for brand reputation, customer loyalty, and overall growth.
