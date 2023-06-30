@@ -19,5 +19,17 @@ The following imperative tasks must be completed in order to address this issue:
 - I replaced all null values with "0" or "NA" depending on the column.
 - I also changed some of the datatypes for all the non-quanlative numerical columns to text data types.
 - To track Churn tenure, I introduced a conditional column.
-|Applied_step | Conditional_column
-|![](
+
+| applied_step      | conditional_column |
+| -------- | -------- |
+| ![](applied_step.jpg)  | ![](Conditional_column.jpg) |
+
+**Exploratory Analysis**
+In total, there are 7,043 customers.
+Maven lost 1869 clients, who were responsible for 17% of its overall income. It's a significant number.
+
+| Dax to count the total churn     | Dax to calculate the % churn on revenue |
+| -------- | -------- |
+| ![](applied_step.jpg)  | ![](Conditional_column.jpg) |
+
+
