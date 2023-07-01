@@ -70,8 +70,10 @@ Out of the overall 1,869 churned customers.
 - Competitors stole 841 (45%) of Maven's customers by providing superior services including fiber optics and Premium Tech Support.
 - Because of customers dissatisfaction with the services provided by Maven, 321 (17%) customers churned.
 - 314 (16%) customers left due to the attitude of the support staff.
-- Although price churned away 211 (11%) consumers. These numbers are enormous, and as a result, the business must take decisive steps in order
-  to retain a sizable consumer base.
+- 211 (11%) customers Churned because price.
+
+These numbers are enormous, and as a result, the business must take decisive steps in order
+to retain a sizable consumer base.
 
 ![](Reason_churn.jpg)
 
